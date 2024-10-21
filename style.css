@@ -89,7 +89,6 @@ nav {
 #earbuds {
     height: 100vh;
     background-image: linear-gradient(#edfefe, #eeffff);
-    ;
 }
 
 .earbuds-container {
@@ -193,10 +192,12 @@ nav {
     flex-direction: column;
     padding-bottom: 5px;
 }
-.best-seller-img{
+
+.best-seller-img {
     position: relative;
 }
-.image-top{
+
+.image-top {
     position: absolute;
     background-color: black;
     color: white;
@@ -205,11 +206,13 @@ nav {
     padding: 3px 5px;
     border-radius: 5px;
 }
-.image-top p{
+
+.image-top p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
     font-weight: 600;
 }
+
 .best-seller-img img {
     width: 100%;
     height: 222px;
@@ -281,4 +284,36 @@ nav {
     right: 12px;
 }
 
+/* NECK BAND */
 
+.smartwatch-container {
+    padding: 0px 40px;
+    background-image: linear-gradient(#fffefd, #fff2da);
+}
+
+.section-content-right {
+    margin-top: 270px;
+}
+
+.main-heading-right,
+.sub-heading-right {
+    text-align: right;
+}
+
+.section-content {
+    position: relative;
+}
+
+.button-right {
+    position: absolute;
+    top: 50;
+    right: 0;
+}
+
+
+/* EAR BUDS BEST SELLERS */
+
+.smartwatch-bestseller-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#fff1d6, #fff);
+}
