@@ -284,7 +284,7 @@ nav {
     right: 12px;
 }
 
-/* NECK BAND */
+/* SMART WATCH */
 
 .smartwatch-container {
     padding: 0px 40px;
@@ -311,9 +311,253 @@ nav {
 }
 
 
-/* EAR BUDS BEST SELLERS */
+/* SMART WATCH BEST SELLERS */
 
 .smartwatch-bestseller-container {
     padding: 0px 40px 20px;
     background-image: linear-gradient(#fff1d6, #fff);
+}
+
+/* NECK BAND */
+.neckbands-container {
+    padding: 0px 40px;
+    background-image: linear-gradient(#ffffff, #f2edff);
+}
+
+/* SMART WATCH BEST SELLERS */
+
+.neck-band-bestseller-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#f2edff, #ffffff);
+}
+
+.headphones-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#ffffff, #dfeeeb);
+}
+
+.headphones-bestseller-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#dfeeeb, #FFF);
+}
+
+.wireless-speaker-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#ffffff, #e6ecff);
+}
+
+.wireless-speaker-bestseller-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(to bottom, #e5ebff, #ffffff);
+}
+
+.party-speakers-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#ffffff, #eddfcb);
+
+}
+
+.party-speakers-bestseller-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#eddfcc, #fff)
+}
+
+#sound-bar {
+    height: 60vh;
+}
+
+.sound-bar-container {
+    padding: 0px 40px 20px;
+    height: inherit;
+    background-image: linear-gradient(#ffffff, #f3e5e5);
+}
+
+.sound-bar-content-image {
+    position: relative;
+    height: inherit;
+}
+
+.sound-bar-content-image img {
+    position: absolute;
+    width: 85%;
+    bottom: 0px;
+    right: 0;
+}
+
+.wireless-speaker-bestseller-container {
+    padding: 0px 40px 20px;
+    background-image: linear-gradient(#f3e4e4, #fff);
+}
+
+.bootom-banner-container {
+    padding: 0px 40px;
+}
+
+.bootom-banner-image-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bootom-banner-image-container img {
+    width: 100%;
+}
+
+/* FOOTER ONE */
+
+#footer-one {
+    margin-top: 30px;
+    position: relative;
+}
+
+.footer-container {
+    background-color: #EFF4F7;
+    margin: 0px 15px;
+    /* padding: 54px 54px; */
+}
+
+.footer-one-container {
+    /* margin: 0px 15px; */
+    padding: 54px 54px;
+    background-color: #E7F0F5;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.footer-one-child-one {
+    width: 28%;
+}
+
+.footer-col {
+    width: 16%;
+}
+
+.footer-logo {
+    max-width: 150px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.signup-form {
+    margin-top: 20px;
+    position: relative;
+}
+
+.signup-form input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 13px;
+    padding: 0 12px;
+    border-radius: 10px;
+}
+
+.signup-form i {
+    position: absolute;
+    bottom: 15px;
+    right: 21px;
+    font-size: 21px;
+    color: #929ba2;
+}
+
+.footer-col p {
+    color: #000;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+
+.footer-col ul li {
+    padding-top: 20px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #827D80;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-two-container {
+    padding: 54px 54px;
+}
+
+.footer-two-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col-two {
+    width: 25%;
+}
+
+.footer-col-two h5 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a2024;
+    margin-bottom: 18px;
+
+}
+
+.footer-col-two p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a2024;
+    margin-bottom: 5px;
+}
+
+.footer-col-two ul li a {
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #868c91;
+}
+
+footer {
+    background-color: #E7F0F5;
+}
+
+.final-footer-container {
+    padding: 54px 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials a i {
+    color: black;
+}
+
+.final-footer-container p {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(167, 175, 183);
+    font-weight: 400;
+}
+
+.fixed {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5px;
+    right: 0;
+}
+
+.fixed img {
+    width: 100%;
+    border-radius: 50%;
+}
+.fixed-whatsapp{
+    bottom: 55px;
 }
